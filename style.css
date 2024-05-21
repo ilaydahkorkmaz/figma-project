@@ -1,0 +1,357 @@
+* {
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    color: black;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.navbar input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e9e9e9;
+}
+
+.navbar button.header {
+    padding: 5px 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: gray;
+    margin-right: 10px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.navbar i {
+    margin-left: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    width: 120px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    color: black;
+    font-size: 12px;
+}
+
+.h2 {
+    margin-top: 30px;
+    margin-left: 400px;
+}
+
+.navbar2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 0;
+    margin-right: 235px;
+}
+
+.nav-item {
+    color: gray;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.nav-item:hover {
+    text-decoration: solid black;
+    color: black;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.product-card {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    background-color: #f0f0f0;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.product-info {
+    margin-top: 10px;
+}
+
+.product-color {
+    font-size: 14px;
+    color: #888;
+}
+
+.product-brand {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.buy-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color: #0056b3;
+}
+
+.fa-heart {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #f00;
+    cursor: pointer;
+}
+.container {
+    display: flex; /* Kartları yatay olarak sıralamak için flexbox'u kullan */
+    
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: gray;
+    width: 200px;
+    height: 340px;
+    margin: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    
+}
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+.card button {
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 150px;
+    font-size: 12px;
+    float: left; /* Kartları yan yana yerleştir */
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+.card h1{
+    font-size: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 200px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.card.white {
+    background-color: #ffffff;
+}
+
+.card.grey {
+    background-color: #808080;
+}
+
+.card:hover {
+    background-color: #f0f0f0;
+}
+
+.product-info {
+    margin-bottom: 10px;
+}
+
+.button {
+    border: none;
+    padding: 10px;
+    width: 100%;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button.white {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.button.grey {
+    background-color: #808080;
+}
+
+.container .card:not(:last-child) {
+    margin-right: 10px;
+}
+
+
+/* alt kısım */
+
+.container3{
+  display:flex;
+  justify-content:none;
+  
+}
+
+
+.card2:hover {
+    background-color: #f0f0f0;
+}
+
+
+/* 
+.card button {
+    border: none;
+    padding: 10px;
+    width: 100%;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+
+.card2{
+    width: 25%;
+    height: 700;
+    background-color: #ffffff;
+    
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.white{
+    
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 60%;
+    background-color: #fff;
+
+}
+
+.card2 p{
+    font-size:12px ;
+}
+
+.indirim{
+    margin-left: 12%;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    color: #fff;
+    
+    
+}
+
+.sol {
+    flex: 1;
+    padding: 0 10px;
+    margin-top: 100px;
+}
+
+.orta {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.sag {
+    
+    flex: 1;
+    padding: 0 10px;
+}
+
+.footerb {
+    margin-top: 180px;
+    margin-bottom: 50px;
+}
+
+/* .footer .footericon {
+    color: #fff;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999; /* Diğer içeriklerin üzerinde olmasını sağlamak için */
+/* } */
+
+/* .footer .footericon i { */
+    /* margin-left: 10px; İkonlar arasında sol boşluk ekleyelim */
+    /* font-size: 24px; İkonların boyutunu ayarlayalım
+} */ 

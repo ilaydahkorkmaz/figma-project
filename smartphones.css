@@ -1,0 +1,264 @@
+* {
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    color: black;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.navbar input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e9e9e9;
+}
+
+.navbar button.header {
+    padding: 5px 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: gray;
+    margin-right: 10px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.navbar i {
+    margin-left: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+/* navbar finish */
+
+
+/* nav2 start */
+.navbar2 {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    background-color: #fff;
+    padding: 10px 0;
+    margin-right: 900px;
+}
+
+.nav-item {
+    color: gray;
+    text-decoration: none;
+    margin: 0 10px;
+    
+}
+
+.nav-item:hover {
+    text-decoration: solid black;
+    color: black;
+}
+/* nav2 start */
+
+/* Ekran bölümü start */
+
+.container {
+    display: flex;
+}
+
+.left-panel {
+    flex: 0; /* Makes the left panel flexible */
+    padding: 20px; 
+    border-right: 1px solid #ccc; /* Adds a right border to separate the panels */
+    margin-bottom: 5px; /* Ensure there's no top margin */
+    
+}
+
+.right-panel {
+    flex: 2; /* Sağ panelin esnekliği, sol panele göre iki katı olacak */
+    padding: 20px;
+    
+}
+
+/* İstenilen diğer stillendirmeleri ekleyebilirsiniz */
+
+.checkboxes label {
+    display: inline-block;
+    margin-right: 10px; /* İstediğiniz boşluğu ayarlayabilirsiniz */
+}
+
+.expandable .content {
+    display: none; /* İçeriği başlangıçta gizle */
+}
+
+.expandable.active .content {
+    display: block; /* Açık durumda içeriği göster */
+}
+
+.toggle-btn{
+    color: black;
+    background-color: #fff;
+    border: none;
+}
+
+.toggle-btn:click{
+    border: none;
+}
+
+/* --------------------------------------------------------------------------------------------------- */
+/* Search */
+.search1{
+    border-radius: 6px;
+    background-color: rgba(255, 228, 196, 0.185);
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/* .container2 .card {
+    width:200px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    margin: 20px;
+   justify-content: center;
+} */
+/* .button {
+    border: none;
+    padding: 10px;
+    width: 100%;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+
+.container2_{
+    display: table-row;
+    justify-content: space-around;
+
+}
+
+.container2, .container2_ {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* This allows the items to wrap if they don't fit in one row */
+}
+
+.card {
+    width: 200px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    margin: 20px;
+    flex: 1 1 calc(33.333% - 40px); /* This ensures three cards per row and accounts for the margin */
+    box-sizing: border-box; /* Ensures padding and border are included in the width calculation */
+}
+
+/*  */
+
+
+
+/* ekran bölümü finish */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer start */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    color: #fff;
+    
+    
+}
+
+.sol {
+    flex: 1;
+    padding: 0 10px;
+    margin-top: 100px;
+}
+
+.orta {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.sag {
+    
+    flex: 1;
+    padding: 0 10px;
+}
+
+.footerb {
+    margin-top: 180px;
+    margin-bottom: 50px;
+}
+
+.selected{
+    margin-top: 0px;
+}
